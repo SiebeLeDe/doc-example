@@ -13,7 +13,7 @@ Welcome to Mandelbrot set's documentation!
    introduction.md
    get-started.md
    get-started-rst.rst
-   api.md
+   api.rst
 
 
 

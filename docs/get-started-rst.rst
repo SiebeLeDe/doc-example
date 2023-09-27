@@ -26,9 +26,9 @@ Code Explanation rst
 
 Hyperlink test:
 
-Please see :func:`mandelbrot.mandelbrot`.
+Please see :func:`src.mandelbrot.mandelbrot`.
 
 Autofunction test:
 
-.. autofunction:: mandelbrot.mandelbrot
+.. autofunction:: src.mandelbrot.mandelbrot
    :noindex:
