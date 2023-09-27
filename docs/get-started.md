@@ -1,9 +1,11 @@
 
-# Get Started
+# Get Started in Markdown
 
 Here we will see how we can make a Mandelbrot set plot with python code.
 
-> [!IMPORTANT] This exercise focuses on intermediate level python users who feel comfortable wiht using numpy and complex numbers
+``` {Important}
+This exercise focuses on intermediate level python users who feel comfortable using numpy and complex numbers
+```
 
 ## MandelBrot set
 
@@ -11,7 +13,7 @@ The Mandelbrot set is a beautiful fractal and is defined as the set of complex n
 
 ![Mandelbrot set](./_static/get-started/mandel1s.jpg)
 
-## Code Example
+## Full Code
 
 ```{literalinclude} ../src/mandelbrot.py
     :language: python
@@ -19,7 +21,11 @@ The Mandelbrot set is a beautiful fractal and is defined as the set of complex n
 
 ## Code Explanation
 
-Please see :func:`mandelbrot.mandelbrot`
+Hyperlink test
+
+Please see {py:func}`mandelbrot`
+
+Autofunction test
 
 ``` {autofunction} mandelbrot.mandelbrot
     :noindex:

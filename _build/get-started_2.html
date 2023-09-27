@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Get Started in Markdown &mdash; Mandelbrot set 0.1 documentation</title>
+  <title>Get Started &mdash; DocTest 0.1 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -17,12 +17,11 @@
         <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
         <script src="_static/sphinx_highlight.js"></script>
-        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Get Started in ReStructuredText" href="get-started-rst.html" />
-    <link rel="prev" title="Project Overview" href="introduction.html" /> 
+    <link rel="next" title="API reference" href="api.html" />
+    <link rel="prev" title="Get Started" href="get-started.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -34,7 +33,7 @@
           
           
           <a href="index.html" class="icon icon-home">
-            Mandelbrot set
+            DocTest
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -46,14 +45,14 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Project Overview</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Get Started in Markdown</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="some-feature.html">Some feature</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get-started.html">Get Started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Get Started</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#mandelbrot-set">MandelBrot set</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#full-code">Full Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#code-example">Code Example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#code-explanation">Code Explanation</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="get-started-rst.html">Get Started in ReStructuredText</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API reference</a></li>
 </ul>
 
@@ -63,7 +62,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Mandelbrot set</a>
+          <a href="index.html">DocTest</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -71,9 +70,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Get Started in Markdown</li>
+      <li class="breadcrumb-item active">Get Started</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/get-started.md.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/get-started_2.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -81,20 +80,20 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="get-started-in-markdown">
-<h1>Get Started in Markdown<a class="headerlink" href="#get-started-in-markdown" title="Permalink to this heading"></a></h1>
-<p>Here we will see how we can make a Mandelbrot set plot with python code.</p>
+  <section id="get-started">
+<h1>Get Started<a class="headerlink" href="#get-started" title="Permalink to this heading"></a></h1>
+<p>Here we will see how we can make a Mandelbrot set plot with Python code.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>This exercise focuses on intermediate level python users who feel comfortable using numpy and complex numbers</p>
+<p>This exercise focuses on intermediate level Python users who feel comfortable with using NumPy and complex numbers.</p>
 </div>
 <section id="mandelbrot-set">
 <h2>MandelBrot set<a class="headerlink" href="#mandelbrot-set" title="Permalink to this heading"></a></h2>
-<p>The Mandelbrot set is a beautiful fractal and is defined as the set of complex numbers <span class="math notranslate nohighlight">\(c\)</span> for which the sequence <span class="math notranslate nohighlight">\(z_{n+1} = z_n^2 + c\)</span> does not diverge when iterated from <span class="math notranslate nohighlight">\(z=0\)</span>, i.e., for which the sequence <span class="math notranslate nohighlight">\(|z_n|\)</span> remains bounded in value.</p>
-<p><img alt="Mandelbrot set" src="_images/mandel1s.jpg" /></p>
+<p>The Mandelbrot set is a beautiful fractal and is defined as the set of complex numbers <cite>c</cite> for which the sequence <cite>z_{n+1} = z_n^2 + c</cite> does not diverge when iterated from <cite>z=0</cite>, i.e., for which the sequence <cite>|z_n|</cite> remains bounded in value.</p>
+<img alt="Mandelbrot set" src="_images/mandel1s.jpg" />
 </section>
-<section id="full-code">
-<h2>Full Code<a class="headerlink" href="#full-code" title="Permalink to this heading"></a></h2>
+<section id="code-example">
+<h2>Code Example<a class="headerlink" href="#code-example" title="Permalink to this heading"></a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
@@ -181,20 +180,20 @@
 </section>
 <section id="code-explanation">
 <h2>Code Explanation<a class="headerlink" href="#code-explanation" title="Permalink to this heading"></a></h2>
-<p>Hyperlink test</p>
-<p>Please see <a class="reference internal" href="api.html#module-mandelbrot" title="mandelbrot"><code class="xref py py-func docutils literal notranslate"><span class="pre">mandelbrot()</span></code></a></p>
-<p>Autofunction test</p>
-<p>.. py:function:: mandelbrot(c, max_iter) -&gt; int
-:noindex:
-:module: mandelbrot</p>
-<p>Computes the number of iterations required for the complex number c to escape the Mandelbrot set.</p>
-<p>Args:
-c (complex): The complex number to test.
+<p>Please see <a class="reference internal" href="api.html#mandelbrot.mandelbrot" title="mandelbrot.mandelbrot"><code class="xref py py-func docutils literal notranslate"><span class="pre">mandelbrot.mandelbrot()</span></code></a>.</p>
+<dl class="py function">
+<dt class="sig sig-object py">
+<span class="sig-prename descclassname"><span class="pre">mandelbrot.</span></span><span class="sig-name descname"><span class="pre">mandelbrot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span></dt>
+<dd><p>Computes the number of iterations required for the complex number c to escape the Mandelbrot set.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>c (complex): The complex number to test.
 max_iter (int): The maximum number of iterations to perform.</p>
-<p>Returns:
-int: The number of iterations required for c to escape the Mandelbrot set, or 0 if it does not escape within max_iter iterations.</p>
-<p>.. autofunction:: mandelbrot.mandelbrot
-:noindex:</p>
+</dd>
+<dt>Returns:</dt><dd><p>int: The number of iterations required for c to escape the Mandelbrot set, or 0 if it does not escape within max_iter iterations.</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 </section>
 
@@ -202,8 +201,8 @@ int: The number of iterations required for c to escape the Mandelbrot set, or 0 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="introduction.html" class="btn btn-neutral float-left" title="Project Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="get-started-rst.html" class="btn btn-neutral float-right" title="Get Started in ReStructuredText" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="get-started.html" class="btn btn-neutral float-left" title="Get Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="api.html" class="btn btn-neutral float-right" title="API reference" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

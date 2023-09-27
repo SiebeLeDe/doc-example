@@ -8,7 +8,7 @@
 
 import sys
 import os
-project = 'DocTest'
+project = 'Mandelbrot set'
 copyright = '2023, SiebeLeDe'
 author = 'SiebeLeDe'
 release = '0.1'
@@ -19,11 +19,21 @@ release = '0.1'
 # Add the src directory to the path
 sys.path.insert(0, os.path.abspath('../src'))
 
-# Markdown support (myst-parser), LaTeX support (sphinx.ext.mathjax)
-extensions = ['myst_parser', 'sphinx.ext.mathjax', "sphinx.ext.autodoc"]
+# Markdown support (myst-parser), LaTeX support (sphinx.ext.mathjax), Ability to see source code (sphinx.ext.viewcode)
+extensions = ['myst_parser', 'sphinx.ext.mathjax', "sphinx.ext.autodoc", "sphinx.ext.autosectionlabel", "sphinx.ext.viewcode"]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# Include both .rst and .md files
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+# Removes the module name from the documentation
+add_module_names = False
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
