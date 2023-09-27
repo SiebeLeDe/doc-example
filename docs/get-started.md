@@ -23,15 +23,17 @@ The Mandelbrot set is a beautiful fractal and is defined as the set of complex n
 
 Hyperlink test
 
+Please see {py:func}`src.mandelbrot.mandelbrot`
+Please see {py:func}`mandelbrot.mandelbrot`
 Please see {py:func}`mandelbrot`
 
 Autofunction test
 
-``` {autofunction} mandelbrot
+``` {autofunction} src.mandelbrot,mandelbrot
     :noindex:
 ```
 
-``` {autofunction} mandelbrot
+``` {autofunction} mandelbrot.mandelbrot
     :noindex:
 ```
 
