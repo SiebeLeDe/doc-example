@@ -30,6 +30,3 @@ Autofunction test
 ``` {autofunction} mandelbrot.mandelbrot
     :noindex:
 ```
-
-.. autofunction:: mandelbrot.mandelbrot
-   :noindex:

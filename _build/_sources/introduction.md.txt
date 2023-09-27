@@ -4,7 +4,7 @@ This project is a try-out for testing the Mandelbrot set in Python, and is part 
 
 ## What is the Mandelbrot Set?
 
-The Mandelbrot set is a beautiful fractal and is defined as the set of complex numbers `c` for which the sequence `z_{n+1} = z_n^2 + c` does not diverge when iterated from `z=0`, i.e., for which the sequence `|z_n|` remains bounded in value.
+The Mandelbrot set is a beautiful fractal and is defined as the set of complex numbers {math}`c` for which the sequence {math}`z_{n+1} = z_n^2 + c` does not diverge when iterated from {math}`z=0`, i.e., for which the sequence {math}`|z_n|` remains bounded in value.
 
 ## Documentation
 
