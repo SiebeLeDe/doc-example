@@ -19,9 +19,6 @@ release = '0.1'
 # Add the src directory to the path
 sys.path.insert(0, os.path.abspath('../src'))
 
-# print the path
-print(sys.path)
-
 # Markdown support (myst-parser), LaTeX support (sphinx.ext.mathjax)
 extensions = ['myst_parser', 'sphinx.ext.mathjax', "sphinx.ext.autodoc"]
 

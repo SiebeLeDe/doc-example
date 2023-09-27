@@ -19,12 +19,5 @@ The Mandelbrot set is a beautiful fractal and is defined as the set of complex n
 
 ## Code Explanation
 
-.. autofunction:: mandelbrot.mandelbrot_set
-
-The mandelbrot.py file contains three functions and an example usage:
-
-:func:`src.mandelbrot.mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_iter)`
-:func:`mandelbrot.mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_iter)`
-:func:`mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_iter)`
-
-This function generates a 2D array of pixels representing the Mandelbrot set. It takes the minimum and maximum values of the real and imaginary axes (xmin, xmax, ymin, ymax), the width and height of the image (width, height), and the maximum number of iterations (max_iter) as input. It returns three arrays: x, y, and pixels. The x and y arrays contain the real and imaginary values of each pixel, respectively, and the pixels array contains the number of iterations required for each pixel to escape the Mandelbrot set.
+```{autofunction} mandelbrot.mandelbrot_set
+```
