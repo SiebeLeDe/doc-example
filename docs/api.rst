@@ -1,5 +1,5 @@
 API reference
 =============
 
-.. automodule:: mandelbrot
+.. automodule:: src.mandelbrot
    :members:
