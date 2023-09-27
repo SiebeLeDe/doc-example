@@ -36,7 +36,7 @@ source_suffix = {
 }
 
 # Removes the module name from the documentation
-add_module_names = False
+# add_module_names = False
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
