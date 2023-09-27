@@ -18,7 +18,7 @@ The Mandelbrot set is a beautiful fractal and is defined as the set of complex n
 Full code rst
 ----------------
 
-.. literalinclude:: ../src/mandelbrot.py
+.. literalinclude:: ../src/mandelbrot_maker.py
    :language: python
 
 Code Explanation rst
@@ -26,17 +26,9 @@ Code Explanation rst
 
 Hyperlink test:
 
-Please see :func:`src.mandelbrot.mandelbrot`.
-Please see :func:`mandelbrot.mandelbrot`.
-Please see :func:`mandelbrot`.
+Please see :func:`mandelbrot_maker.mandelbrot`.
 
 Autofunction test:
 
-.. autofunction:: src.mandelbrot.mandelbrot
-   :noindex:
-
-.. autofunction:: mandelbrot.mandelbrot
-   :noindex:
-
-.. autofunction:: mandelbrot
+.. autofunction:: mandelbrot_maker.mandelbrot
    :noindex:

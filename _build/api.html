@@ -48,9 +48,9 @@
 <li class="toctree-l1"><a class="reference internal" href="get-started.html">Get Started in Markdown</a></li>
 <li class="toctree-l1"><a class="reference internal" href="get-started-rst.html">Get Started in ReStructuredText</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">API reference</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#src.mandelbrot.mandelbrot"><code class="docutils literal notranslate"><span class="pre">mandelbrot()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="#src.mandelbrot.mandelbrot_set"><code class="docutils literal notranslate"><span class="pre">mandelbrot_set()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="#src.mandelbrot.plot_mandelbrot"><code class="docutils literal notranslate"><span class="pre">plot_mandelbrot()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mandelbrot_maker.mandelbrot"><code class="docutils literal notranslate"><span class="pre">mandelbrot()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mandelbrot_maker.mandelbrot_set"><code class="docutils literal notranslate"><span class="pre">mandelbrot_set()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mandelbrot_maker.plot_mandelbrot"><code class="docutils literal notranslate"><span class="pre">plot_mandelbrot()</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -79,11 +79,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="module-src.mandelbrot">
-<span id="api-reference"></span><h1>API reference<a class="headerlink" href="#module-src.mandelbrot" title="Permalink to this heading"></a></h1>
+  <section id="module-mandelbrot_maker">
+<span id="api-reference"></span><h1>API reference<a class="headerlink" href="#module-mandelbrot_maker" title="Permalink to this heading"></a></h1>
 <dl class="py function">
-<dt class="sig sig-object py" id="src.mandelbrot.mandelbrot">
-<span class="sig-name descname"><span class="pre">mandelbrot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="reference internal" href="_modules/src/mandelbrot.html#mandelbrot"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#src.mandelbrot.mandelbrot" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="mandelbrot_maker.mandelbrot">
+<span class="sig-name descname"><span class="pre">mandelbrot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="reference internal" href="_modules/mandelbrot_maker.html#mandelbrot"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mandelbrot_maker.mandelbrot" title="Permalink to this definition"></a></dt>
 <dd><p>Computes the number of iterations required for the complex number c to escape the Mandelbrot set.</p>
 <dl class="simple">
 <dt>Args:</dt><dd><p>c (complex): The complex number to test.
@@ -95,8 +95,8 @@ max_iter (int): The maximum number of iterations to perform.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="src.mandelbrot.mandelbrot_set">
-<span class="sig-name descname"><span class="pre">mandelbrot_set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xmax</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ymin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ymax</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span></span></span><a class="reference internal" href="_modules/src/mandelbrot.html#mandelbrot_set"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#src.mandelbrot.mandelbrot_set" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="mandelbrot_maker.mandelbrot_set">
+<span class="sig-name descname"><span class="pre">mandelbrot_set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xmax</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ymin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ymax</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span></span></span><a class="reference internal" href="_modules/mandelbrot_maker.html#mandelbrot_set"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mandelbrot_maker.mandelbrot_set" title="Permalink to this definition"></a></dt>
 <dd><p>Computes the Mandelbrot set for a given range of complex plane coordinates.</p>
 <dl class="simple">
 <dt>Args:</dt><dd><p>xmin (float): The minimum value of the x-axis.
@@ -113,8 +113,8 @@ max_iter (int): The maximum number of iterations to compute the Mandelbrot set.<
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="src.mandelbrot.plot_mandelbrot">
-<span class="sig-name descname"><span class="pre">plot_mandelbrot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pixels</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/src/mandelbrot.html#plot_mandelbrot"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#src.mandelbrot.plot_mandelbrot" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="mandelbrot_maker.plot_mandelbrot">
+<span class="sig-name descname"><span class="pre">plot_mandelbrot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pixels</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/mandelbrot_maker.html#plot_mandelbrot"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mandelbrot_maker.plot_mandelbrot" title="Permalink to this definition"></a></dt>
 <dd><p>Plots the Mandelbrot set using the given pixel values.</p>
 <dl class="simple">
 <dt>Args:</dt><dd><p>x (numpy.ndarray): Array of x-coordinates.

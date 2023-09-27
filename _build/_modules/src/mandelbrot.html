@@ -77,7 +77,7 @@
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 
-<div class="viewcode-block" id="mandelbrot"><a class="viewcode-back" href="../../get-started-rst.html#src.mandelbrot.mandelbrot">[docs]</a><span class="k">def</span> <span class="nf">mandelbrot</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">max_iter</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">mandelbrot</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">max_iter</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Computes the number of iterations required for the complex number c to escape the Mandelbrot set.</span>
 
@@ -96,7 +96,7 @@
     <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="n">max_iter</span><span class="p">:</span>
         <span class="k">return</span> <span class="mi">0</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">n</span></div>
+        <span class="k">return</span> <span class="n">n</span>
 
 
 <div class="viewcode-block" id="mandelbrot_set"><a class="viewcode-back" href="../../api.html#src.mandelbrot.mandelbrot_set">[docs]</a><span class="k">def</span> <span class="nf">mandelbrot_set</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">max_iter</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">:</span>

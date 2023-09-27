@@ -17,10 +17,7 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # Add the src directory to the path
-
-current_file = os.path.abspath(__file__)
-parent_dir = os.path.dirname(os.path.dirname(current_file))
-sys.path.insert(0, os.path.abspath(parent_dir))
+sys.path.insert(0, os.path.abspath("../src"))
 
 # Markdown support (myst-parser), LaTeX support (sphinx.ext.mathjax), Ability to see source code (sphinx.ext.viewcode)
 extensions = ['myst_parser', 'sphinx.ext.mathjax', "sphinx.ext.autodoc", "sphinx.ext.autosectionlabel", "sphinx.ext.viewcode"]
@@ -36,7 +33,7 @@ source_suffix = {
 }
 
 # Removes the module name from the documentation
-# add_module_names = False
+add_module_names = False
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
