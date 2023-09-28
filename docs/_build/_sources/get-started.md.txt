@@ -1,9 +1,11 @@
 
-# Get Started
+# Get Started in Markdown
 
 Here we will see how we can make a Mandelbrot set plot with python code.
 
-> [!IMPORTANT] This exercise focuses on intermediate level python users who feel comfortable wiht using numpy and complex numbers
+``` {Important}
+This exercise focuses on intermediate level python users who feel comfortable using numpy and complex numbers
+```
 
 ## MandelBrot set
 
@@ -11,20 +13,20 @@ The Mandelbrot set is a beautiful fractal and is defined as the set of complex n
 
 ![Mandelbrot set](./_static/get-started/mandel1s.jpg)
 
-## Code Example
+## Full Code
 
-```{literalinclude} ../src/mandelbrot.py
+```{literalinclude} ../src/mandelbrot_maker.py
     :language: python
 ```
 
 ## Code Explanation
 
-.. autofunction:: mandelbrot.mandelbrot_set
+Hyperlink test
 
-The mandelbrot.py file contains three functions and an example usage:
+Please see {py:func}`mandelbrot_maker.mandelbrot`
 
-:func:`src.mandelbrot.mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_iter)`
-:func:`mandelbrot.mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_iter)`
-:func:`mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_iter)`
+Autofunction test
 
-This function generates a 2D array of pixels representing the Mandelbrot set. It takes the minimum and maximum values of the real and imaginary axes (xmin, xmax, ymin, ymax), the width and height of the image (width, height), and the maximum number of iterations (max_iter) as input. It returns three arrays: x, y, and pixels. The x and y arrays contain the real and imaginary values of each pixel, respectively, and the pixels array contains the number of iterations required for each pixel to escape the Mandelbrot set.
+``` {autofunction} mandelbrot_maker.mandelbrot
+    :noindex:
+```
