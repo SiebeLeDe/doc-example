@@ -1,0 +1,32 @@
+
+# Get Started in Markdown
+
+Here we will see how we can make a Mandelbrot set plot with python code.
+
+``` {Important}
+This exercise focuses on intermediate level python users who feel comfortable using numpy and complex numbers
+```
+
+## MandelBrot set
+
+The Mandelbrot set is a beautiful fractal and is defined as the set of complex numbers {math}`c` for which the sequence {math}`z_{n+1} = z_n^2 + c` does not diverge when iterated from {math}`z=0`, i.e., for which the sequence {math}`|z_n|` remains bounded in value.
+
+![Mandelbrot set](./_static/get-started/mandel1s.jpg)
+
+## Full Code
+
+```{literalinclude} ../src/mandelbrot_maker.py
+    :language: python
+```
+
+## Code Explanation
+
+Hyperlink test
+
+Please see {py:func}`mandelbrot_maker.mandelbrot`
+
+Autofunction test
+
+``` {autofunction} mandelbrot_maker.mandelbrot
+    :noindex:
+```
